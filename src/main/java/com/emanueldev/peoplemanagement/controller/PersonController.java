@@ -13,7 +13,7 @@ import java.util.Collection;
 public class PersonController {
 
     @GetMapping
-    public Collection<String> fetchPeople() {
-        return Arrays.asList("pera", "batata", "maçã");
+    public String fetchPeople() {
+        return "Busquem conhecimento";
     }
 }
